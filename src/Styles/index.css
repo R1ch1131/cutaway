@@ -24,7 +24,7 @@
 }
 
 .fade{
-    height: 750px;
+    height: 749px;
     background: linear-gradient(70deg, #7FFFD4, #9932CC);
     z-index: 0;
     position: relative;
