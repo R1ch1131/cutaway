@@ -3,6 +3,7 @@
     height: 80px;
     position: fixed;
     z-index: 5;
+    color: grey;
 }
 
 .spisok{
@@ -11,7 +12,7 @@
     justify-content: center;
     align-items: center;
     gap: 7%;
-    color: white;
+    color: grey;
 }
 
 .spisok-scrolled{
@@ -23,15 +24,18 @@
     color: black;
 }
 
-.fade{
-    height: 750px;
-    background: linear-gradient(70deg, #7FFFD4, #9932CC);
-    z-index: 0;
-    position: relative;
+.background{
+    background: #F5F5F5;
+}
+
+.background32{
+    background: red;
+    width: 100%;
+    height: 810px;
 }
 
 .header-scrolled{
-    background:white;
+    background:#C0C0C0;
     width: 100%;
     height: 80px;
     position: fixed;
@@ -39,15 +43,60 @@
     z-index: 5;
 }
 
-.ava{
-    height: 300px;
-    width: 300px;
-}
-
 .about{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 700px;
+    width: 990px;
+}
+
+.ava{
+    height: 600px;
+    width: 450px;
+}
+
+.wish{
+    width: 100%;
+    background: white;
+}
+
+.colon-wish{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 50px;
+    padding: 30px;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.div-wish{
+    display:flex;
+    gap: 30px;
+}
+
+.text-wish{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+.flex{
+    display: flex;
     justify-content: space-between;
-    padding: 150px 500px 0 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 50px;
+}
+
+.ret{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .picture{
@@ -58,6 +107,24 @@
 .picture1{
     height: 100px;
     width: 100px;
+}
+.picture2{
+    height: 70px;
+    width: 70px;
+}
+
+.connect{
+    display: flex;
+    justify-content: space-between;
+    padding-top:70px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 70px;
+}
+
+.connect-div{
+    display: flex;
+    gap: 30px;
 }
 
 .purpose{
