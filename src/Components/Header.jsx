@@ -26,8 +26,7 @@ export const Header = () => {
         <div className={scrolled ? "header-scrolled" : "header"}>
             <div className={scrolled ? "spisok-scrolled" : "spisok"}>
                 <p>О себе</p>
-                <p>Увлечения\Хобби</p>
-                <p>Отношения</p>
+                <p>Желания</p>
                 <p>Связь</p>
             </div>
         </div>
