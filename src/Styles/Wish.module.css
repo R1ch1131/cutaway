@@ -1,0 +1,30 @@
+.background{
+    width: 100%;
+    background: white;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+.general{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 50px;
+    padding: 30px;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.separate{
+    display:flex;
+    gap: 30px;
+}
+
+img{
+    height: 100px;
+    width: 80px;
+}

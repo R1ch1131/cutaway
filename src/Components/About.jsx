@@ -1,13 +1,13 @@
 import React from "react";
-import "./../Styles/index.css"
 import Ava from './../Image/alpha.jpg';
+import styles from './../Styles/About.module.css'
 
 export const About = () => {
     return(
-        <div className="ret">
-            <div className="about flex">
+        <div className={styles.about}>
+            <div className={styles.form}>
                 <div>
-                    <img className="ava" src={Ava} alt="" />
+                    <img src={Ava} alt="" />
                 </div>
                 <div>
                     <h2>Шабалин Александр</h2>
