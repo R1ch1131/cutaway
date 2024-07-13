@@ -1,0 +1,22 @@
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+.general{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 250px 70px 250px;
+}
+
+.separate{
+    display: flex;
+    gap: 30px;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+}

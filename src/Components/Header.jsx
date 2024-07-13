@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./../Styles/index.css";
+import styles from "./../Styles/Header.module.css";
 
 export const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -7,7 +7,8 @@ export const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
-      if (offset > 70) { // условие, при котором меняется цвет хедера
+      if (offset > 70) {
+        // условие, при котором меняется цвет хедера
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -23,13 +24,13 @@ export const Header = () => {
 
   return (
     <div>
-        <div className={scrolled ? "header-scrolled" : "header"}>
-            <div className={scrolled ? "spisok-scrolled" : "spisok"}>
-                <p>О себе</p>
-                <p>Желания</p>
-                <p>Связь</p>
-            </div>
+      <div className={scrolled ? styles["header-scrolled"] : styles.header}>
+        <div className={scrolled ? styles["list-scrolled"] : styles.list}>
+          <p>О себе</p>
+          <p>Желания</p>
+          <p>Связь</p>
         </div>
+      </div>
     </div>
   );
 };

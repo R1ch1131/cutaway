@@ -1,13 +1,11 @@
-import './App.css';
-import './Styles/index.css'
-import { Header } from './Components/Header';
-import { About } from './Components/About';
-import { Wish } from './Components/Wish';
-import { Connect } from './Components/Connect';
+import { Header } from "./Components/Header";
+import { About } from "./Components/About";
+import { Wish } from "./Components/Wish";
+import { Connect } from "./Components/Connect";
 
 function App() {
   return (
-    <div className='background'>
+    <div style={{ background: "#F5F5F5" }}>
       <Header />
       <About />
       <Wish />
